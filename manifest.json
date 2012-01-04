@@ -1,0 +1,14 @@
+{
+  "name": "Lemon Exporter",
+  "version": "1.0",
+  "description": "Export your receipts!",
+  "browser_action": {
+    "default_icon": "lemon.ico",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "*://*.lemon.com/"
+  ]
+}

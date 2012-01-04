@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <script src="JSON/json.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <dl>
+            <dt>Currencies:</dt>
+            <dd><input type="text" name="currencies" value="NOK,LTL,USD,LVL" /></dd>
+            <dt>Month:</dt>
+            <dd><input type="month" name="month" value="2011-12" /></dd>
+        </dl>
+        
+        <button onclick="run();">Export</button>
+        
+        <textarea name="output" id="output"></textarea>
+    </body>
+</html>
